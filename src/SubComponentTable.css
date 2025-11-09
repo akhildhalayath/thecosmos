@@ -1,0 +1,4 @@
+.sub-table .ant-table-body {
+    max-height: 200px; /* This ensures the table's body does not exceed the height */
+    overflow-y: auto; /* Enables vertical scrolling */
+  }

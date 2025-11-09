@@ -1,0 +1,42 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.App-logo {
+  width: 150px; /* Increase the width to 100px */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between image and title */
+}
+
+.App h1 {
+  margin: 0;
+  font-size: 24px; /* Adjust font size as needed */
+}

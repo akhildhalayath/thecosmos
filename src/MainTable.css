@@ -1,0 +1,52 @@
+/* MainTable.css */
+.custom-table {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+  }
+  
+  .custom-table .ant-table {
+    background-color: #f9f9f9;
+  }
+  
+  .custom-table .ant-table-thead > tr > th {
+    background-color: #fafafa;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #e8e8e8;
+  }
+  
+  .custom-table .ant-table-tbody > tr > td {
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .custom-table .ant-table-tbody > tr.ant-table-row:hover > td {
+    background-color: #f1f1f1;
+  }
+  
+  .sub-table .ant-table {
+    background-color: #fff;
+  }
+  
+  .sub-table .ant-table-thead > tr > th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .sub-table .ant-table-tbody > tr > td {
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .sub-table .ant-table-tbody > tr.ant-table-row:hover > td {
+    background-color: #fafafa;
+  }
+  
+  .light-green-row {
+    background-color: #e6f7e6; /* Light green color */
+  }
+  
+  .light-green-row:hover {
+    background-color: #d4f2d4; /* Slightly darker on hover */
+  }
+  
