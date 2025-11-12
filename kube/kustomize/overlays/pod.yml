@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cosmos-pod
+  labels:
+    category: pod
+spec:
+  containers:
+    - name: cosmos-container
+      image: cosmos-app:latest
+      imagePullPolicy: Never
